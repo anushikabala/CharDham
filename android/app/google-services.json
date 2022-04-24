@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "776026239144",
+    "project_id": "chardham-ef1ee",
+    "storage_bucket": "chardham-ef1ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776026239144:android:f0afde3bfb0775207f929d",
+        "android_client_info": {
+          "package_name": "com.example.chaardham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776026239144-fgc9cqupbi3ukim2uvk9rkb5o4s8nemi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBew2qa_FGeZmKb1FhU9KUZc3DtuYK5nQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776026239144-fgc9cqupbi3ukim2uvk9rkb5o4s8nemi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

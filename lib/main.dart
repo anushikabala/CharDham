@@ -1,4 +1,6 @@
 import 'package:chaardham/screens/Selectedplace_screen.dart';
+import 'package:chaardham/screens/adventure.dart';
+import 'package:chaardham/screens/experience.dart';
 import 'package:flutter/material.dart';
 import 'package:chaardham/screens/home_screen.dart';
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen()
+      home: Experience()
     );
   }
 }

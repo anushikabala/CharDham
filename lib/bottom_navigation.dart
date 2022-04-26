@@ -17,6 +17,7 @@ class _BottomNavigationBarTravelState extends State<BottomNavigationBarTravel> {
     });
   }
 
+
   var bottomNavStyle =
   GoogleFonts.lato(fontSize: 12, fontWeight: FontWeight.w500);
 
@@ -33,9 +34,11 @@ class _BottomNavigationBarTravelState extends State<BottomNavigationBarTravel> {
       child: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
+
               icon: _selectedIndex == 0
                   ? new Image.asset('assets/images/homegrey.png')
                   : new Image.asset('assets/images/homeblack.png'),
+
               label: 'Home'
           ),
           BottomNavigationBarItem(

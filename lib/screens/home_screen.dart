@@ -5,6 +5,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:chaardham/bottom_navigation.dart';
 import 'package:chaardham/popular.dart';
 import 'package:chaardham/screens/Selectedplace_screen.dart';
+import 'package:chaardham/screens/details.dart';
 import 'package:chaardham/temples.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -123,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             onTap: () {
                               Navigator.of(context).push(MaterialPageRoute(
                                   builder: (context) => SelectedPlaceScreen(
-                                      recommendedModel: recommendations[index],)));
+                                    recommendedModel: recommendations[index],)));
                             },
                             child: Container(
                               margin: EdgeInsets.only(right: 28.8),

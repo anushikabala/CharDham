@@ -1,4 +1,6 @@
 import 'package:chaardham/screens/adventure.dart';
+import 'package:chaardham/screens/destination.dart';
+import 'package:chaardham/screens/festivals.dart';
 import 'package:chaardham/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 class Experience extends StatelessWidget {
@@ -67,7 +69,7 @@ class Experience extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                          MaterialPageRoute(builder: (context) => Destination()),
                         );
                       },
                       style: ButtonStyle(
@@ -137,7 +139,7 @@ class Experience extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                          MaterialPageRoute(builder: (context) => Festivals()),
                         );
                       },
                       style: ButtonStyle(
